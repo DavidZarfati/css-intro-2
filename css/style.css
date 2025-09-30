@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+ul{
+    list-style: none;
+}
 
 /* Common */
 /* Typography */
@@ -66,5 +69,15 @@ p{
     border-radius: 50%;
     text-align: center;
 }
-
+.email-content{
+    color: rgb(85, 84, 84);
+}
+.email-list li{
+    background-color: rgb(158, 157, 157);
+    padding: 5px 2px;
+    border: 1px solid black;
+}
+.email-list .read{
+    background-color: rgb(236, 236, 236);
+}
 /* FOOTER */
